@@ -16,6 +16,7 @@
 		C60BE2B01F0E1B490096682E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C60BE2AF1F0E1B490096682E /* Assets.xcassets */; };
 		C60BE2B31F0E1B490096682E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C60BE2B11F0E1B490096682E /* LaunchScreen.storyboard */; };
 		C60BE2BE1F0E1B490096682E /* RAC01UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C60BE2BD1F0E1B490096682E /* RAC01UITests.m */; };
+		C63FA84D1F121F9700474C07 /* CreateSignalVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C63FA84C1F121F9700474C07 /* CreateSignalVC.m */; };
 		C6BC3B0B1F0F21F70017775D /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BC3B0A1F0F21F70017775D /* LoginVC.m */; };
 		C6BC3B0E1F0F63520017775D /* ColorSelectVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BC3B0D1F0F63520017775D /* ColorSelectVC.m */; };
 /* End PBXBuildFile section */
@@ -50,6 +51,8 @@
 		C60BE2B91F0E1B490096682E /* RAC01UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RAC01UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C60BE2BD1F0E1B490096682E /* RAC01UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RAC01UITests.m; sourceTree = "<group>"; };
 		C60BE2BF1F0E1B490096682E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C63FA84B1F121F9700474C07 /* CreateSignalVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateSignalVC.h; sourceTree = "<group>"; };
+		C63FA84C1F121F9700474C07 /* CreateSignalVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateSignalVC.m; sourceTree = "<group>"; };
 		C6BC3B091F0F21F70017775D /* LoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
 		C6BC3B0A1F0F21F70017775D /* LoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
 		C6BC3B0C1F0F63520017775D /* ColorSelectVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorSelectVC.h; sourceTree = "<group>"; };
@@ -118,6 +121,8 @@
 				C6BC3B0A1F0F21F70017775D /* LoginVC.m */,
 				C6BC3B0C1F0F63520017775D /* ColorSelectVC.h */,
 				C6BC3B0D1F0F63520017775D /* ColorSelectVC.m */,
+				C63FA84B1F121F9700474C07 /* CreateSignalVC.h */,
+				C63FA84C1F121F9700474C07 /* CreateSignalVC.m */,
 				C60BE2AC1F0E1B490096682E /* Main.storyboard */,
 				C60BE2AF1F0E1B490096682E /* Assets.xcassets */,
 				C60BE2B11F0E1B490096682E /* LaunchScreen.storyboard */,
@@ -360,6 +365,7 @@
 				C6BC3B0E1F0F63520017775D /* ColorSelectVC.m in Sources */,
 				C60BE2A81F0E1B480096682E /* AppDelegate.m in Sources */,
 				C6BC3B0B1F0F21F70017775D /* LoginVC.m in Sources */,
+				C63FA84D1F121F9700474C07 /* CreateSignalVC.m in Sources */,
 				C60BE2A51F0E1B480096682E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
